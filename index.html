@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/elastic_grid.min.css" />
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="css/jmc-pt.css" />
+    <title>JMC Prototype</title>
+  </head>
+  <body>
+    <!-- START HEADER ROW -->
+    <header>
+      <ul class="top-add">
+        <li><i class="bi bi-map"></i> 216 Central Ave • Fort Dodge, IA 50501</li>
+
+        <li><i class="bi bi-telephone"></i> 515-555-5555</li>
+
+        <li><i class="bi bi-search"></i></li>
+      </ul>
+
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Engineering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- END HEADER ROW -->
+
+    <!-- START CAROUSEL  -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80"
+            alt="sample image 1"
+          />
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1231&q=80"
+            alt="sample image 2"
+          />
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Some representative placeholder content for the second slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt="sample image 3"
+          />
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END CAROUSEL  -->
+    <!-- START MAIN  -->
+    <main>
+      <h1 class="text-center">RECENT PROJECTS</h1>
+      <div class="text-center subhead">This is a test subhead</div>
+
+      <!-- PROJECTS -->
+      <div id="elastic_grid_demo"></div>
+
+      <!-- INDUSTRIES  -->
+      <div id="services" class="mt-5">
+        <h1 class="text-center">INDUSTRIES</h1>
+        <div class="text-center subhead">This is a test subhead</div>
+      </div>
+      <!-- Services Carousel -->
+      <div class="owl-carousel owl-theme mt-5 mb-5">
+        <div class="item"><img class="owl-lazy" data-src="images/ag.jpg" alt="Agriculture"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/construction.jpg" alt="Construction"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/forestry.jpg" alt="Forestry"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/marine.jpg" alt="Marine"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/material_handling.jpg" alt="Material Handling"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/military.jpg" alt="Military"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/mining.jpg" alt="Mining"></div>
+        <div class="item"><img class="owl-lazy" data-src="images/generator.jpg" alt="Generator"></div>
+
+      </div>
+    </main>
+    <!-- END MAIN -->
+    <!-- START FOOTER -->
+    <footer>
+      <div class="ftr-innr">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/logo.png" class="ftr-logo" alt="JMC logo" />
+
+            <div class="row mb-4">
+              <div class="col-1"><i class="bi bi-map"></i></div>
+              <div class="col-11">
+                216 Central Ave <br />
+                Fort Dodge, IA <br />
+                50501
+              </div>
+            </div>
+
+            <div class="row mb-4">
+              <div class="col-1">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="col-11">515-555-5555</div>
+            </div>
+
+            <div class="row">
+              <div class="col-1"><i class="bi bi-house-door"></i></div>
+
+              <div class="col-11">
+                Hours: <br />
+                Mon-Fri (9 am - 8 pm)
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mt-ftr-hdrs">
+            <h3>NAVIGATION</h3>
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Engineering</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-ftr-hdrs">
+            <h3>SOCIAL</h3>
+
+            <ul class="scl-list">
+              <li><i class="bi bi-twitter"></i> Twitter</li>
+              <!-- <li><i class="bi bi-pinterest"></i> Pinterest</li> -->
+              <li><i class="bi bi-instagram"></i> Instagram</li>
+              <li><i class="bi bi-facebook"></i> Facebook</li>
+              <li><i class="bi bi-linkedin"></i> LinkedIn</li>
+            </ul>
+          </div>
+          <div class="col-md-3 mt-ftr-hdrs">
+            <h3>JMC SUPPLIES</h3>
+
+            <ul class="sup-list">
+              <li>Copper Radiators</li>
+              <li>Bar & Plate Aluminum</li>
+              <li>Oil Coolers</li>
+              <li>Fans; Steel and Composite</li>
+              <li>Shell & Tube Oil Coolers</li>
+              <li>AC Condensers</li>
+              <li>Aluminum Radiators</li>
+              <li>Charge Air Coolers</li>
+              <li>Hydraulic Fan Drive Kits</li>
+              <li>Hydraulic Systems</li>
+              <li>Steel Oil Coolers</li>
+              <li>Wire Fan Guards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <!--- uncompress-->
+
+    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="js/elastic_grid.js"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- compress version
+    <script type="text/javascript" src="js/elastic_grid.min.js"></script>
+    -->
+    <script type="text/javascript">
+      $(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          lazyLoad:true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 3,
+            },
+            1000: {
+              items: 5,
+            },
+          },
+        });
+        $("#elastic_grid_demo").elastic_grid({
+          showAllText: "All",
+          filterEffect: "popup", // moveup, scaleup, fallperspective, fly, flip, helix , popup
+          hoverDirection: true,
+          hoverDelay: 0,
+          hoverInverse: false,
+          expandingSpeed: 500,
+          expandingHeight: 500,
+          items: [
+            {
+              title: "Project 1",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/1.jpg", "images/small/1_2.jpg", "images/small/1_3.jpg"],
+              large: ["images/large/1.jpg", "images/large/1_2.jpg", "images/large/1_3.jpg"],
+              img_title: ["Project 1"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 2",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/2.jpg", "images/small/2_2.jpg", "images/small/2_3.jpg"],
+              large: ["images/large/2.jpg", "images/large/2_2.jpg", "images/large/2_3.jpg"],
+              img_title: ["Project 2 "],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 3",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/3.jpg", "images/small/3_2.jpg", "images/small/3_3.jpg"],
+              large: ["images/large/3.jpg", "images/large/3_2.jpg", "images/large/3_3.jpg"],
+              img_title: ["Project 3"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 4",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/4.jpg", "images/small/4_2.jpg", "images/small/4_3.jpg"],
+              large: ["images/large/4.jpg", "images/large/4_2.jpg", "images/large/4_3.jpg"],
+              img_title: ["Project 4"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 5",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/5.jpg", "images/small/5_2.jpg", "images/small/5_3.jpg"],
+              large: ["images/large/5.jpg", "images/large/5_2.jpg", "images/large/5_3.jpg"],
+              img_title: ["Project 5"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 6",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/6.jpg", "images/small/6_2.jpg", "images/small/6_3.jpg"],
+              large: ["images/large/6.jpg", "images/large/6_2.jpg", "images/large/6_3.jpg"],
+              img_title: ["Project 6"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 7",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/7.jpg", "images/small/7_2.jpg", "images/small/7_3.jpg"],
+              large: ["images/large/7.jpg", "images/large/7_2.jpg", "images/large/7_3.jpg"],
+              img_title: ["Project 7"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+            {
+              title: "Project 8",
+              description:
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu ut nibh porta, facilisis finibus mauris lobortis. Vivamus id aliquet turpis, vel cursus arcu. Etiam vitae condimentum magna, ut tincidunt lacus. Quisque feugiat, quam euismod suscipit commodo, justo mi fermentum sem, sed suscipit enim nisl eu lacus.",
+              thumbnail: ["images/small/8.jpg", "images/small/8_2.jpg", "images/small/8_3.jpg"],
+              large: ["images/large/8.jpg", "images/large/8_2.jpg", "images/large/8_3.jpg"],
+              img_title: ["Project 8"],
+              button_list: [
+                { title: "Details", url: "#", new_window: false },
+                // { 'title':'Download', 'url':'#', 'new_window' : false}
+              ],
+              tags: [""],
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>

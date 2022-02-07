@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;900&display=swap");
+
+body {
+  font-family: "Hind Madurai", sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.subhead {
+  font-family: 'Lora', serif;
+  font-size: 1.25rem;
+}
+header {
+  background-color: #2f3f50;
+  overflow: hidden;
+}
+.top-add {
+  text-align: right;
+  padding: 10px;
+  color: #fff;
+  font-size: 0.813rem;
+  position: absolute;
+  right: 0px;
+}
+.top-add li {
+  display: inline;
+  padding-right: 20px;
+}
+#navbarCollapse {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: 36px;
+}
+main {
+  max-width: 1175px;
+  margin: 0 auto;
+}
+
+/* PRODUCT GRID  */
+
+.og-grid li a figure {
+	background: rgba(47,63,80,0.7);
+}
+.og-expander {
+	background: #0e2033;
+}
+.elastislide-wrapper {
+	background-color: #45586c;
+}
+.og-details a.link-button, .og-details a:hover {
+
+	background: -moz-linear-gradient(top,#637486 0,#45586c);
+	background: -webkit-gradient(linear,left top,left bottom,from(#637486),to(#45586c));
+
+}
+/* FOOTER 
+-------------------------------------------------*/
+footer {
+  background-color: #0e2033;
+  overflow: hidden;
+  padding: 20px;
+  color: #fff;
+  font-size: 0.938rem;
+}
+.ftr-innr {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.ftr-logo {
+	margin-bottom: 38px;
+}
+footer h3 {
+	margin-bottom: 45px;
+}
+.mt-ftr-hdrs {
+	margin-top: 68px;
+}
+ul.ftr-add {
+  list-style-type: none;
+}
+.ftr-add li {
+  padding-bottom: 20px;
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+footer ul {
+  margin: 0;
+  padding-left: 15px;
+}
+/* Supplies list */
+ul.sup-list {
+	columns: 2;
+	list-style-type: none;
+}
+.sup-list li {
+  padding-bottom: 20px;
+}
+.sup-list li::before {
+	font-family: "bootstrap-icons";
+	content: "\F285";
+	color: yellow;
+	font-size: 10px;
+	padding-right: 2px;
+	display: inline-block;
+	margin-left: -13px;
+	width: 13px;
+}
+/* Nav list */
+.nav-list {
+  padding: 0;
+}
+.nav-list li {
+  padding-bottom: 25px;
+  list-style-type: none;
+}
+/* Social list */
+.scl-list {
+  padding: 0;
+}
+.scl-list li {
+  list-style-type: none;
+  padding-bottom: 25px;
+}
+.scl-list .bi {
+	font-size: 30px;
+	padding-right: 15px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+.carousel-caption {
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+}
